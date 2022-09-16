@@ -1260,7 +1260,7 @@ header .logo a {
   margin-left: 20px;
   margin-top: 13px;
   display: block;
-  position: relative;
+  position: fixed;
 }
 .menu-toggle span {
   display: block;
