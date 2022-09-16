@@ -1,0 +1,317 @@
+Pallavi.css
+  Last
+  month
+  4
+  Dec
+  2020
+  You
+  uploaded
+  an
+  item
+  Style
+  Sheet
+  Pallavi.css
+  body {
+  background: white;
+  vertical-align: middle;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+#clr {
+  font-size: 180%;
+  padding: 0 2rem;
+  color: black;
+}
+
+.toggle {
+  background-color: white;
+  border-style: none;
+  outline: none;
+}
+.navbar-toggler {
+  filter: invert(100%);
+}
+main li:hover {
+  font-weight: bold;
+}
+
+img {
+  height: 25%;
+  border-radius: 100%;
+  vertical-align: middle;
+  margin: 2%;
+  box-shadow: 0 0 0 0.7em #eeeeee;
+}
+.dark-mode img {
+  box-shadow: 0 0 0 0.7em #aaaaaa;
+}
+ul li {
+  list-style-type: none;
+  display: inline-grid;
+  margin-right: 2%;
+}
+li .fab {
+  padding: 1%;
+  padding-left: 5%;
+  background: #eeeeee;
+  border-radius: 100%;
+  line-height: 28px;
+}
+
+.fab,
+.fa {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+}
+.fa-github {
+  color: black;
+}
+
+.fa-github:hover {
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+  line-height: 28px;
+}
+
+.fa-twitter:hover {
+  background: #55acee;
+  color: white;
+  border-radius: 100%;
+  line-height: 28px;
+}
+
+.fa-linkedin-in:hover {
+  background: #007bb5;
+  color: white;
+  border-radius: 100%;
+  line-height: 28px;
+}
+.fa-envelope:hover {
+  background: #bbbbbb;
+  color: black;
+  border-radius: 100%;
+  line-height: 28px;
+}
+.fa-instagram {
+  color: #9d0191;
+}
+
+.fa-instagram:hover {
+  background: #fd8c04;
+  color: white;
+  border-radius: 100%;
+  line-height: 28px;
+}
+
+.fa-medium-m {
+  color: black;
+}
+
+.fa-medium-m:hover {
+  background: black;
+  color: white;
+  border-radius: 100%;
+  line-height: 28px;
+}
+
+/*text*/
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+p {
+  border-right: solid 5px rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: black;
+}
+
+/* Animation */
+#p1 {
+  animation: animated-text 4s linear 1s 1 normal both,
+    animated-cursor 600ms linear infinite;
+}
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 95%;
+  }
+}
+
+@keyframes animated-cursor {
+  from {
+    border-right-color: rgba(0, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+#p2 {
+  animation: animated-text_2 4s linear 5s 1 normal both,
+    animated-cursor_2 600ms linear infinite;
+}
+@keyframes animated-text_2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 95%;
+  }
+}
+
+@keyframes animated-cursor_2 {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+#p3 {
+  animation: animated-text_3 4s linear 8s 1 normal both,
+    animated-cursor_3 600ms linear infinite;
+}
+@keyframes animated-text_3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 95%;
+  }
+}
+
+@keyframes animated-cursor_3 {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/*dark mode*/
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode #p1 {
+  color: white;
+}
+
+@keyframes animated-cursor {
+  from {
+    border-right-color: transparent;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.dark-mode #p2 {
+  color: white;
+  animation: animated-text_2 4s linear 5s 1 normal both,
+    animated-cursor_2 600ms linear infinite;
+}
+@keyframes animated-text_2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 95%;
+  }
+}
+
+@keyframes animated-cursor_2 {
+  from {
+    border-right-color: transparent;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.dark-mode #p3 {
+  color: white;
+  animation: animated-text_3 4s linear 8s 1 normal both,
+    animated-cursor_3 600ms linear infinite;
+}
+
+@keyframes animated-text_3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 95%;
+  }
+}
+@keyframes animated-cursor_3 {
+  from {
+    border-right-color: transparent;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.dark-mode .toggle {
+  background-color: black;
+  border-style: none;
+  color: white;
+}
+.dark-mode .fa-instagram {
+  background: #fd8c04;
+  color: white;
+  border-radius: 100%;
+  line-height: 28px;
+}
+
+.dark-mode .fa-twitter {
+  background: #55acee;
+  color: white;
+  border-radius: 100%;
+  line-height: 28px;
+}
+
+.dark-mode .fa-linkedin-in {
+  background: #007bb5;
+  color: white;
+  border-radius: 100%;
+  line-height: 28px;
+}
+
+.dark-mode .fa-medium-m {
+  background: white;
+  color: black;
+  border-radius: 100%;
+  line-height: 28px;
+}
+
+.dark-mode .fa-github {
+  background-color: #dddddd;
+  color: black;
+  border-radius: 100%;
+  line-height: 28px;
+}
+.dark-mode .fa-envelope {
+  background: #dddddd;
+  color: blue;
+  border-radius: 100%;
+  line-height: 28px;
+}
+.dark-mode #clr {
+  color: white;
+}
+.dark-mode .navbar-toggler {
+  filter: none;
+}
+
